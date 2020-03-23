@@ -1,0 +1,19 @@
+{
+  "name": "stock-prediction",
+  "version": "1.0.0",
+  "description": "Stock prediction api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consola": "^2.11.3",
+    "cors": "^2.8.5",
+    "dateformat": "^3.0.3",
+    "express": "^4.17.1",
+    "yahoo-stocks": "^2.0.4"
+  }
+}
